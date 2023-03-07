@@ -5,6 +5,7 @@ import { AiOutlineAudio } from 'react-icons/ai';
 import { FiEdit } from 'react-icons/fi';
 import { RxMixerVertical } from 'react-icons/rx';
 import { SiAdobepremierepro, SiAdobeaudition, SiAdobephotoshop } from 'react-icons/si'
+import Profile from '../public/assets/profile.jpg';
 
 type Props = {}
 
@@ -24,25 +25,17 @@ function ExperienceCard({}: Props) {
                 y: 0,
             }}
             className='h-32 w-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
-            src='https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/306321191_472923701516788_1036067590155672267_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=wiix7Tn6rJQAX80XrMD&_nc_ht=scontent-ord5-1.xx&oh=00_AfDxnait8cS1UU7KDIfOBlT5VJtm40vGe5cyK_sSq_f3yg&oe=640528BE'
+            src='https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/316043852_1721661444886085_7739550921123109701_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=eJ50XjdNeTwAX9cZvIq&_nc_ht=scontent-ord5-1.xx&oh=00_AfCdU7ylZO7gin8pYK4HZUc-Xv4ItmtCj4SoQgKkMqo5Ig&oe=640A720E'
             alt='Company Logo'
         />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-4xl font-light'>CEO of Cerulean Media</h4>
-            <p className='font-bold text-2xl mt-1'> at Cerulean Media, LLC.</p>
+            <h4 className='text-4xl font-light'>Frontend Software Developer</h4>
+            <p className='font-bold text-2xl mt-1'>Self-Employed</p>
             <div className='flex space-x-2 my-2'>
-                <BsCameraReels className='h-10 w-10' />
-                <AiOutlineAudio className='h-10 w-10' />
-                <FiEdit className='h-10 w-10' />
-                <RxMixerVertical className='h-10 w-10' />
-                <BsHeadphones className='h-10 w-10' />
-                <SiAdobeaudition className='h-10 w-10' />
-                <SiAdobepremierepro className='h-10 w-10' />
-                <SiAdobephotoshop className='h-10 w-10' />
-
+                
             </div>
-            <p className='uppercase py-5 text-[#4a7eb3]'>From 2016 to Present</p>
+            <p className='uppercase py-5 text-[#a49746]'>From March 2022 to Present</p>
             <ul className='list-disc space-y-4 ml-5 text-lg'>
                 <li>I am the Bossman AND Cameraman</li>
                 <li>I film people</li>

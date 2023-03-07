@@ -23,11 +23,11 @@ export default function Header({}: Props) {
                  duration: 1.5,
              }}
             className='flex flex-row items-center'>
-            <SocialIcon url='https://www.youtube.com/channel/UCKqI5mujjZiEqceYtm01dbw' fgColor='#7aa0c7' bgColor='transparent' />
-            <SocialIcon url='https://www.facebook.com/MichaelEverettVideography' fgColor='#7aa0c7' bgColor='transparent' />
-            <SocialIcon url='https://www.instagram.com/michaeleverettvideography/' fgColor='#7aa0c7' bgColor='transparent' />
-            <SocialIcon url='https://www.linkedin.com/in/michael-everett-0853b374' fgColor='#7aa0c7' bgColor='transparent' />
-            <SocialIcon url='https://open.spotify.com/album/4AivcZTTUZF1nA6OyrwHdY?go=1&sp_cid=5bb0dd3a-b7df-4d54-a30b-8ee841bd9a03&utm_source=embed_player_p&utm_medium=desktop&nd=1' fgColor='#7aa0c7' bgColor='transparent' />
+            <SocialIcon url='https://github.com/PatrickGBecker' fgColor='#eeb343' bgColor='transparent' />
+            <SocialIcon url='https://www.linkedin.com/in/patrickgarrettbecker/' fgColor='#eeb343' bgColor='transparent' />
+            <SocialIcon url='https://patrickgbecker.myportfolio.com/welcomepage' fgColor='#eeb343' bgColor='transparent' />
+            <SocialIcon url='https://www.behance.net/imaginator'
+            fgColor='#eeb343' bgColor='transparent' />
         </motion.div>
         
         <Link href='#contact'>
@@ -45,14 +45,14 @@ export default function Header({}: Props) {
                 transition={{
                     duration: 1.5,
                 }}
-                className='flex flex-row items-center text-[#7aa0c7] cursor-pointer'>
+                className='flex flex-row items-center text-[#eeb343] cursor-pointer'>
                 <SocialIcon 
                     className='cursor-pointer'
                     network='email'
-                    fgColor='#7aa0c7'
+                    fgColor='#eeb343'
                     bgColor='transparent'
                 />
-                <p className='uppercase hidden md:inline-flex text-sm text-[#7aa0c7]'>Get In Touch</p>
+                <p className='uppercase hidden md:inline-flex text-sm text-[#eeb343]'>Get In Touch</p>
             </motion.div>
         </Link>
     </header>

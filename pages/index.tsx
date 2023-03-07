@@ -6,13 +6,15 @@ import Hero from '@/components/Hero'
 import Portfolio from '@/components/Portfolio'
 import Skills from '@/components/Skills'
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
+import Profile from '../public/assets/profile.jpg'
 
 export default function Home() {
   return (
-    <div className='bg-[#1e3348] text-[#7aa0c7] h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-[#34597e] scrollbar-thumb-[#4a7eb3]'>
+    <div className='bg-[#006b6b] text-[#7cc78c] h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-[#34597e] scrollbar-thumb-[#eeb343]'>
       <Head>
-        <title>Cerulean Media, LLC. Company Site</title>
+        <title>Patrick Becker's Developer Portfolio</title>
         <meta name="description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -47,9 +49,9 @@ export default function Home() {
       <Link href='#hero'>
         <footer className='sticky bottom-5 w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
-            <img 
-              className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
-              src='https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/306321191_472923701516788_1036067590155672267_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=wiix7Tn6rJQAX80XrMD&_nc_ht=scontent-ord5-1.xx&oh=00_AfDxnait8cS1UU7KDIfOBlT5VJtm40vGe5cyK_sSq_f3yg&oe=640528BE'
+            <Image 
+              className='h-10 w-10 rounded-full filter opacity-40 hover:opacity-100 cursor-pointer'
+              src={Profile}
               alt='Photo of Michael and link back to Home page'
             />
           </div>

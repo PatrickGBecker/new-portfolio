@@ -18,15 +18,15 @@ function Portfolio({}: Props) {
             duration: 1.5,
         }}
         className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
-        <h3 className='hidden md:inline-flex absolute top-24 uppercase tracking-[20px] text-[#85caff] text-2xl'> 
+        <h3 className='hidden md:inline-flex absolute top-24 uppercase tracking-[20px] text-[#eeb343] text-2xl'> 
             Portfolio
         </h3> 
 
-        <h3 className='hidden md:inline-flex absolute top-36 uppercase tracking-[3px] text-sm'>
+        <h3 className='hidden text-[#a49746] md:inline-flex absolute top-36 uppercase tracking-[3px] text-sm'>
         Scroll right to view more projects
     </h3>
 
-        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-[#34597e] scrollbar-thumb-[#4a7eb3]'>
+        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-[#34597e] scrollbar-thumb-[#eeb343]'>
           {projects.map((project) => (
             <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
               <motion.img 
@@ -49,11 +49,11 @@ function Portfolio({}: Props) {
             
               <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                 <h4 className='text-4xl font-semibold text-center'>
-                    <span className='underline decoration-[#85caff]/90'>Photo-shoot</span> for Cassidy's fine ass
+                    <span className='underline decoration-[#a49746]/90'>Web App</span> some Awesome Company!
                 </h4>
 
                 <p className='text-lg text-center md:text-left'>
-                  Lights, camera, shake dat phat booty! Bro, it was like juicin' an orange with your face. I seriously learned a lot about camera angles, lighting and microphone placement so that the cheek claps didn't blow out yer eardrums. 
+                  I designed, built and deployed an amazing app. I used computer wizardry to conjure something from nothing. Strange symbols and many unknown secrets were manifested from the dark realms of ancient scripts. 
                 </p>
               </div>
             </div>

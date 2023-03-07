@@ -24,30 +24,29 @@ function Contact({}: Props) {
 
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-center md:text-left  md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <h3 className='hidden md:inline-flex absolute top-24 uppercase tracking-[20px] text-[#85caff] text-2xl'> 
+        <h3 className='hidden md:inline-flex absolute top-24 uppercase tracking-[20px] text-[#eeb343] text-2xl'> 
             Contact Me
         </h3> 
 
         <div className='flex flex-col space-y-10'>
-            <h4 className='text-4xl font-semibold text-center'>
-                If I can't do it, you probably don't need it.{" "}
-                <span className='underline decoration-[#85caff]/90'>Let's Talk.</span>
+            <h4 className='text-[#a49746] text-4xl font-semibold text-center'>
+                Let's Talk!
             </h4>
 
             <div className='space-y-10'>
                 <div className='flex items-center space-x-5 justify-center'>
-                     <FiPhone className='text-[#85caff] h-7 w-7 animate-pulse' />
-                     <p className='text-2xl'>734-752-0492</p>
+                     <FiPhone className='text-[#eeb343] h-7 w-7 animate-pulse' />
+                     <p className='text-2xl'>720-371-0394</p>
                 </div>
 
                 <div className='flex items-center space-x-5 justify-center'>
-                     <FiMapPin className='text-[#85caff] h-7 w-7 animate-pulse' />
-                     <p className='text-2xl'>Denver Metropolitan Area</p>
+                     <FiMapPin className='text-[#eeb343] h-7 w-7 animate-pulse' />
+                     <p className='text-2xl'>Kansas City Metropolitan Metropolitan Area</p>
                 </div>
 
                 <div className='flex items-center space-x-5 justify-center'>
-                     <BsEnvelope className='text-[#85caff] h-7 w-7 animate-pulse' />
-                     <p className='text-2xl'>mseverett89@gmail.com</p>
+                     <BsEnvelope className='text-[#eeb343] h-7 w-7 animate-pulse' />
+                     <p className='text-2xl'>patrickgbecker@gmail.com</p>
                 </div>
             </div>
 
@@ -83,7 +82,7 @@ function Contact({}: Props) {
                />
                <button 
                  type='submit' 
-                 className='bg-[#85caff]/40 text-[#1e3348] py-5 px-10 rounded-md font-bold text-lg focus:bg-[#85caff] hover:bg-[#85caff]/70'
+                 className='bg-[#7cc78c]/80 text-[#34597e] py-5 px-10 rounded-md font-bold text-lg focus:bg-[#eeb343] focus:text=[#34597e] hover:bg-[#eeb343]/70'
                 >
                  Submit
                </button>
