@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'cerulean-media',
+  title: 'personal-portfolio',
 
-  projectId: 'bcjr23an',
+  projectId: 'mzt784ht',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
